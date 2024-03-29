@@ -15,7 +15,7 @@ const AlignedText = (props: AlignedTextProps) => {
     const leftTextClasses = `text-left ${props.leftTextClasses || ''}`
     return (
         <>
-            <div className="flex justify-between my-2">
+            <div className="flex justify-between mt-2 mb-1">
                 <Text text={props.leftText} classes={leftTextClasses} />
                 <Text text={props.rightText} classes={rightTextClasses} />
             </div>
