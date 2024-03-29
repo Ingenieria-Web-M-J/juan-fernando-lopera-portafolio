@@ -6,10 +6,10 @@ type IconProps = {
 }
 
 const Icon = (props: IconProps) => {
-    const iconClasses = `icon-${props.icon} ${props.classes || ''}`;
+    const iconClasses = `${props.icon} ${props.classes || ''}`;
     return (
         <>
-        <span className={iconClasses}></span>
+        <span className={`${props.icon} ${props.classes || ''}`}></span>
         </>
     );
 }
