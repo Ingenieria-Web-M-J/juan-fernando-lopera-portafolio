@@ -6,8 +6,8 @@ type PercentageBarProps = {
 
 const PercentageBar = (props: PercentageBarProps) => {
   return (
-  <div className="bg-white border-double border-4 border-lime-400 rounded">
-    <div className=" h-0.5 bg-lime-400 border-none rounded" style={{ width: `${props.percentage}%` }}></div>
+  <div className="bg-white border-double border-4 border-lime-500 rounded">
+    <div className=" h-0.5 bg-lime-500 border-none rounded" style={{ width: `${props.percentage}%` }}></div>
   </div>
   )
 }
