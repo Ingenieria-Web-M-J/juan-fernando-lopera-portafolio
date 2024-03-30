@@ -23,7 +23,7 @@ const EducationCard = (props: EducationCardProps) => {
                 </div>
                 <div className='pr-10'>
                     <Title title={props.educationType} />
-                    <Text text={props.description} classes='text-sm text-justify'/>
+                    <Text text={props.description} classes='text-sm text-justify' />
                 </div>
             </div>
         </>
