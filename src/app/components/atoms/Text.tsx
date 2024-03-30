@@ -1,8 +1,8 @@
 import React from 'react'
 
 type TextProps = {
-    text: string
-    classes?: string
+  text: string
+  classes?: string
 }
 
 const Text = (props: TextProps) => {

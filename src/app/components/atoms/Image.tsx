@@ -8,7 +8,7 @@ type ImageProps = {
 
 const Image = (props: ImageProps) => {
     return (
-        <img src={props.src} alt={props.alt} className={`mt-2 ${props.classes || ''}`}/>
+        <img src={props.src} alt={props.alt} className={`mt-2 ${props.classes || ''}`} />
     )
 }
 

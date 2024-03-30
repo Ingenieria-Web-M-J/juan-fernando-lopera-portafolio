@@ -6,7 +6,7 @@ type HorizontalLineProps = {
 
 const HorizontalLine = (props: HorizontalLineProps) => {
   return (
-    <hr className={`mx-auto w-10/12 h-px ${props.margin || 'my-4'}`}/>
+    <hr className={`mx-auto w-10/12 h-px ${props.margin || 'my-4'}`} />
   )
 }
 
