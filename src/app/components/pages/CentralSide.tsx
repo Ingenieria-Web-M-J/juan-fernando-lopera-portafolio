@@ -5,7 +5,7 @@ import { Text } from '../atoms'
 const CentralSide = () => {
     return (
         <>
-            <section className="flex-grow bg-blue-50 w-2/3 ">
+            <section className="flex-grow bg-slate-900 w-2/3 ">
                 <div className='w-full'>
                     <MainInfo />
                 </div>
@@ -18,7 +18,7 @@ const CentralSide = () => {
                 <div className='w-full'>
                     <PortfolioInfo />
                 </div>
-                <footer className="mx-5 bg-white text-center py-1 ">
+                <footer className="mx-5 bg-white text-center py-1 my-0.5">
                     <Text text='2024. All Rights Reserved.' classes='text-xl' />
                 </footer>
             </section>

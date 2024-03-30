@@ -7,7 +7,7 @@ type DurationTextProps = {
 
 const DurationText = (props: DurationTextProps) => {
   return (
-    <div className='ml-4 items-center bg-blue-700 w-32 h-4 border-none rounded-sm text-center'>
+    <div className='ml-4 items-center bg-slate-900 w-32 h-4 border-none rounded-sm text-center'>
       <p className='font-sans text-xs text-white'>{props.initial} - {props.final}</p>
     </div>
   )

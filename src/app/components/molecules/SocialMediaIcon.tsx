@@ -10,7 +10,7 @@ type SocialMediaIconProps = {
 const SocialMediaIcon = (props: SocialMediaIconProps) => {
     return (
         <div className=''>
-            <a href={props.link} className='flex items-center justify-center bg-blue-700 rounded-full p-2 my-2'>
+            <a href={props.link} className='flex items-center justify-center bg-slate-900 rounded-full p-2 my-2'>
                 <Icon icon={props.icon} classes={`text-4xl ${props.iconClasses || ''}`}></Icon>
             </a>
         </div>

@@ -8,7 +8,7 @@ const MainInfo = () => {
                 <section className='flex flex-col my-auto gap-4 '>
                     <div>
                         <p className="font-sans text-4xl font-semibold text-center">I'm Juan Fernando</p>
-                        <p className="font-sans text-4xl font-bold text-center text-blue-500">Backend</p>
+                        <p className="font-sans text-4xl font-bold text-center text-slate-700">Backend</p>
                         <p className="font-sans text-4xl font-semibold text-center">Developer</p>
                     </div>
                     <p className="font-sans text-sm text-justify w-96 ">

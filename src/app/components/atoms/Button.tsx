@@ -9,7 +9,7 @@ type ButtonProps = {
 const Button = (props: ButtonProps) => {
     return (
         <>
-            <button className={`bg-blue-700 text-white font-sans text-sm font-semibold rounded-sm py-2 px-4 ${props.size || ''}`} onClick={props.onClick}>{props.text}</button>
+            <button className={`bg-slate-900 text-white font-sans text-sm font-semibold rounded-sm py-2 px-4 ${props.size || ''}`} onClick={props.onClick}>{props.text}</button>
         </>
     )
 }

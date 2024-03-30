@@ -8,7 +8,7 @@ type TitleProps = {
 
 const Title = (props: TitleProps) => {
   return (
-    <h2 className={`font-sans ${props.size || 'text-xl'} font-semibold text-center text-black ${props.classes || ''}`}>{props.title}</h2>
+    <h2 className={`font-sans ${props.size || 'text-xl'} font-semibold text-center ${props.classes || ''}`}>{props.title}</h2>
   )
 }
 

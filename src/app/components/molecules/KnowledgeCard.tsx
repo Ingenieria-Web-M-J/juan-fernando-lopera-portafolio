@@ -11,7 +11,7 @@ const KnowledgeCard = (props: KnowledgeCardProps) => {
   return (
     <>
         <div className='flex flex-col items-center bg-white border-solid rounded p-5'>
-            <Icon icon={props.icon} classes='text-6xl text-blue-700'/>
+            <Icon icon={props.icon} classes='text-6xl text-slate-900'/>
             <Title title={props.title} classes='my-3'/>
             <Text text={props.text}/>
         </div>
