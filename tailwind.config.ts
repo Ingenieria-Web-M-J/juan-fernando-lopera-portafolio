@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 import { addDynamicIconSelectors } from "@iconify/tailwind";
-//const { addDynamicIconSelectors } = require('@iconify/tailwind');
 
 const config: Config = {
   content: [
@@ -14,6 +13,9 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontFamily: {
+        sans: ["font-sans", "sans-serif"],
       },
     },
   },

@@ -4,14 +4,13 @@ import { SocialMedia } from '../organisms'
 
 const RightSide = () => {
   return (
-    <>
-      <section className="flex flex-col items-center bg-white p-2 gap-2 ">
-        <Title title='Links' />
-        <SocialMedia />
-      </section>
-    </>
-
+    <section className="flex lg:flex-col bg-white p-2 gap-2 flex-row justify-center items-center lg:justify-start  ">
+      <Title title='Links' classes='hidden lg:block' />
+      <SocialMedia />
+    </section>
   )
 }
+
+
 
 export default RightSide

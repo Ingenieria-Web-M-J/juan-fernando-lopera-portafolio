@@ -4,26 +4,15 @@ import { Text } from '../atoms'
 
 const CentralSide = () => {
     return (
-        <>
-            <section className="flex-grow bg-slate-900 w-2/3 ">
-                <div className='w-full'>
-                    <MainInfo />
-                </div>
-                <div className="w-full text-center">
-                    <KnowledgeInfo />
-                </div>
-                <div className="w-full">
-                    <EducationInfo />
-                </div>
-                <div className='w-full'>
-                    <PortfolioInfo />
-                </div>
-                <footer className="mx-5 bg-white text-center py-1 my-0.5">
-                    <Text text='2024. All Rights Reserved.' classes='text-xl' />
-                </footer>
-            </section>
-
-        </>
+        <section className="flex-grow bg-slate-900 w-full gap-4 flex flex-col ">
+            <MainInfo />
+            <KnowledgeInfo />
+            <EducationInfo />
+            <PortfolioInfo />
+            <footer className="lg:mx-5 bg-white text-center rounded-sm py-1">
+                <Text classes='text-lg'>2024. All Rights Reserved. </Text>
+            </footer>
+        </section>
     )
 }
 

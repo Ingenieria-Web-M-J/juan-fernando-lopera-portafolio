@@ -9,7 +9,7 @@ const ProgrammingLanguages = () => {
             <LanguageInfo language='Java' percentage={70} />
             <LanguageInfo language='Python' percentage={60} />
             <LanguageInfo language='Javascript' percentage={40} />
-            <HorizontalLine/>
+            <HorizontalLine />
         </>
     )
 }

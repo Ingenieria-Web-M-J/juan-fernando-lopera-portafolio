@@ -12,21 +12,19 @@ type EducationCardProps = {
 
 const EducationCard = (props: EducationCardProps) => {
     return (
-        <>
-            <div className='bg-white flex py-5'>
-                <div className='ml-12 mr-24 w-3/12'>
-                    <Title title={props.title} />
-                    <div className='flex justify-between items-center my-4'>
-                        <Text text={props.text} />
+        <div className='bg-white flex py-5 shadow-md shadow-white/40 w-full gap-4 flex-col lg:flex-row'>
+            <div className=' px-6 flex flex-col items-center'>
+                <Title title={props.title} />
+                <div className='flex lg:justify-between items-center my-4'>
+                    <Text classes='whitespace-nowrap'> {props.text} </Text>
                         <DurationText initial={props.initial} final={props.final} />
-                    </div>
-                </div>
-                <div className='pr-10'>
-                    <Title title={props.educationType} />
-                    <Text text={props.description} classes='text-sm text-justify' />
                 </div>
             </div>
-        </>
+            <div className='px-6 gap-2 flex flex-col'>
+                <Title title={props.educationType} />
+                <Text classes='text text-justify'>{props.description}</Text>
+            </div>
+        </div>
     )
 }
 
