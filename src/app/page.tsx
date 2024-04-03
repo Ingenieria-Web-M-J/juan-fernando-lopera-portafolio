@@ -1,4 +1,4 @@
-import { CentralSide, LeftSide, RightSide } from "./components/pages";
+import { CentralSide, LeftSide, RightSide } from "./components/templates";
 
 export default function Home() {
   return (
