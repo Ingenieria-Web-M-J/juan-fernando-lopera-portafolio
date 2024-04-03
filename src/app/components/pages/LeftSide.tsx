@@ -3,15 +3,13 @@ import { Languages, ProgrammingLanguages, Frameworks, PersonalInfo, ExtraSkills 
 
 const LeftSide = () => {
   return (
-    <>
-      <section className='bg-white px-2'>
-        <PersonalInfo />
-        <Languages />
-        <ProgrammingLanguages />
-        <Frameworks />
-        <ExtraSkills />
-      </section>
-    </>
+    <section className='bg-white w-full px-4 lg:w-fit'>
+      <PersonalInfo />
+      <Languages />
+      <ProgrammingLanguages />
+      <Frameworks />
+      <ExtraSkills />
+    </section>
   )
 }
 

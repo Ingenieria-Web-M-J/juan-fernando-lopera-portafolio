@@ -1,5 +1,5 @@
 import React from 'react'
-import { PercentageBar} from '../atoms'
+import { PercentageBar } from '../atoms'
 import AlignedText from './AlignedText'
 
 type LanguageInfoProps = {

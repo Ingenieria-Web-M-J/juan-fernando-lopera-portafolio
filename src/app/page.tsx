@@ -1,13 +1,11 @@
-import { LanguageInfo } from "./components/molecules";
-import { Languages } from "./components/organisms";
 import { CentralSide, LeftSide, RightSide } from "./components/pages";
 
 export default function Home() {
   return (
     <>
-      <main className='flex min-h-screen'>
+      <main className='flex flex-col min-h-screen lg:flex-row gap-2'>
         <LeftSide />
-        <CentralSide/>
+        <CentralSide />
         <RightSide />
       </main>
     </>

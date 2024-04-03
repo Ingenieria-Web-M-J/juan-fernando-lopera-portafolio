@@ -1,14 +1,15 @@
 import React from 'react'
 
 type TextProps = {
-  text: string
+  text?: string
   classes?: string
+  children: React.ReactNode
 }
 
 const Text = (props: TextProps) => {
-  const classNames = `font-sans ${props.classes || ''}`
+  const classNames = `${props.classes || ''}`
   return (
-    <p className={classNames}>{props.text}</p>
+    <p className={classNames}>{props.children}</p>
   )
 }
 

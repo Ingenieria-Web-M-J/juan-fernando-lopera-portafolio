@@ -7,9 +7,7 @@ type IconProps = {
 
 const Icon = (props: IconProps) => {
     return (
-        <>
-            <span className={`${props.icon} ${props.classes || ''}`}></span>
-        </>
+        <span className={`${props.icon} ${props.classes || ''}`}></span>
     );
 }
 
