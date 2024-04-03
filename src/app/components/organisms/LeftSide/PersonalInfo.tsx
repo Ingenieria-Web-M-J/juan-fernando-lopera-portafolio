@@ -8,7 +8,7 @@ const PersonalInfo = () => {
             <Image src='/img-rounded-bg.jpg' alt='Juan Fernando Lopera Muñoz' classes='rounded-full w-64 h-64 lg:w-32 lg:h-32 mx-auto' />
             <Text classes='text-center text-2xl font-bold' > Juan Fernando</Text>
             <Text classes='text-center text-xl' > Lopera Muñoz</Text>
-            <Text classes='text-center italic'> Systems engineering student</Text>
+            <Text classes='text-center italic whitespace-nowrap' > Systems engineering student</Text>
             <Text classes='text-center italic' > UdeA</Text>
             <HorizontalLine />
             <AlignedText leftText='Age:' rightText='23' rightTextClasses='font-semibold text-lime-500' />

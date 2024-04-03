@@ -1,5 +1,11 @@
+'use client';
 import React from 'react'
 import { Button, Image } from '../../atoms'
+
+
+const contactMeOnClick = () => {
+    window.open('mailto:juanlopera0509@gmail.com', '_blank')
+}
 
 const MainInfo = () => {
     return (
@@ -13,7 +19,7 @@ const MainInfo = () => {
                 <p className=" text-justify w-fit my-5 ">
                     Young innovator, with a high level of commitment and interpersonal skills to collaborate effectively in team environments, possessing expertise in programming languages and a strong passion for web development.
                 </p>
-                <Button text='HIRE ME ➤' size='w-32' classes='hover:transition-colors hover:duration-500 hover:bg-slate-700' />
+                <Button text='CONTACT ME ➤' size='w-36' classes='hover:transition-colors hover:duration-500 hover:bg-slate-700' onClick={contactMeOnClick} />
 
             </section>
             <section className='flex justify-center w-fit items-end'>
@@ -22,5 +28,7 @@ const MainInfo = () => {
         </main>
     )
 }
+
+
 
 export default MainInfo
