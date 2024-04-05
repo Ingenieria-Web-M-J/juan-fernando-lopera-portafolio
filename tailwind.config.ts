@@ -21,7 +21,5 @@ const config: Config = {
   },
   plugins: [addDynamicIconSelectors()],
 }
-module.exports = {
-  plugins: ['prettier-plugin-tailwindcss'],
-}
+
 export default config
