@@ -2,6 +2,10 @@ import React from 'react'
 import { KnowledgeCard } from '../../molecules'
 import { Title } from '../../atoms'
 
+// Este componente se creó con la finalidad de ser usado en la sección de conocimientos.
+// Se hace uso del componente "KnowledgeCard" y del átomo "Title".
+// Se muestra un título y tres tarjetas de conocimiento.
+
 const Knowledge = () => {
   return (
     <div className="w-full text-center">

@@ -1,3 +1,4 @@
+// Se crea un index.ts para exportar todos los componentes de la carpeta atoms, lo que permita hacer un import mas limpio en otras partes del proyecto
 export { default as PercentageBar } from './PercentageBar'
 export { default as Title } from './Title'
 export { default as Text } from './Text'

@@ -2,6 +2,10 @@ import React from 'react'
 import { EducationCard } from '../../molecules'
 import { HorizontalLine, Title } from '../../atoms'
 
+// Este organismo se creó con la finalidad de ser usado en la sección central de la página principal.
+// Muestra información sobre mi educación.
+// Se hace uso de los átomos "HorizontalLine" y "Title", y de la molécula "EducationCard"
+
 const EducationInfo = () => {
   return (
     <div className="w-full">

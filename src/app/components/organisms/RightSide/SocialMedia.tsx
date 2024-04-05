@@ -1,6 +1,9 @@
 import React from 'react'
 import { SocialMediaIcon } from '../../molecules'
 
+// Este organismo se creó con la finalidad de ser usado en la sección de redes sociales.
+// Se hace uso del componente "SocialMediaIcon".
+
 const SocialMedia = () => {
   return (
     <>

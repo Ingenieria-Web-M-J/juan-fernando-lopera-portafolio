@@ -1,3 +1,4 @@
+// // Se crea un index.ts para exportar todos los componentes de la carpeta organisms, lo que permita hacer un import mas limpio en otras partes del proyecto
 export { default as Languages } from './LeftSide/LanguageInfo'
 export { default as Frameworks } from './LeftSide/Frameworks'
 export { default as ProgrammingLanguages } from './LeftSide/ProgrammingLanguages'

@@ -2,6 +2,11 @@ import React from 'react'
 import { HorizontalLine, Image, Text } from '../../atoms'
 import { AlignedText } from '../../molecules'
 
+// Este organismo se creó con la finalidad de ser usado en la sección de información personal.
+// Se hace uso del componente "AlignedText" y de los átomos "Image" y "Text".
+// Se muestra la información personal del estudiante.
+// Se hace uso de los átomos "HorizontalLine", "Image" y "Text" y del componente "AlignedText".
+
 const PersonalInfo = () => {
   return (
     <>

@@ -6,6 +6,11 @@ const contactMeOnClick = () => {
   window.open('mailto:juanlopera0509@gmail.com', '_blank')
 }
 
+// Este organismo se creó con la finalidad de ser usado en la página principal de la aplicación.
+// Contiene información personal y una imagen de perfil.
+// Se hace uso del átomo "Button" y "Image".
+// Se creó un botón que al hacer clic en él, se abre el cliente de correo predeterminado del 
+// usuario para enviar un correo electrónico a mi dirección de correo electrónico.
 const MainInfo = () => {
   return (
     <main className="mx-2 my-2 flex flex-col justify-center rounded bg-white shadow-lg shadow-white/40 lg:mx-5 lg:flex-row">

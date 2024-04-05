@@ -7,6 +7,10 @@ import {
 } from '../organisms'
 import { Text } from '../atoms'
 
+// Este template se creó con la finalidad de ser usado en la sección central de la página.
+// Se hace uso de los organismos "MainInfo", "KnowledgeInfo", "EducationInfo" y "PortfolioInfo".
+// Además, se hace uso del átomo "Text" el cual se utiliza para el footer de la página.
+
 const CentralSide = () => {
   return (
     <section className="flex w-full flex-grow flex-col gap-4 bg-slate-900 ">

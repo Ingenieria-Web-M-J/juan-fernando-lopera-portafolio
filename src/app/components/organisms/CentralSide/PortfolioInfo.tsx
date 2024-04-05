@@ -2,6 +2,10 @@ import React from 'react'
 import { Title } from '../../atoms'
 import { PortfolioCard } from '../../molecules'
 
+// Este organismo se creó con la finalidad de ser usado en la sección de portafolio.
+// Se hace uso del componente "PortfolioCard" y del átomo "Title".
+// Se muestra un título y dos tarjetas de portafolio.
+
 const PortfolioInfo = () => {
   return (
     <div className="w-full">
