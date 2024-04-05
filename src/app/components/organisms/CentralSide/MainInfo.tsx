@@ -1,34 +1,47 @@
-'use client';
+'use client'
 import React from 'react'
 import { Button, Image } from '../../atoms'
 
-
 const contactMeOnClick = () => {
-    window.open('mailto:juanlopera0509@gmail.com', '_blank')
+  window.open('mailto:juanlopera0509@gmail.com', '_blank')
 }
 
+// Este organismo se creó con la finalidad de ser usado en la página principal de la aplicación.
+// Contiene información personal y una imagen de perfil.
+// Se hace uso del átomo "Button" y "Image".
+// Se creó un botón que al hacer clic en él, se abre el cliente de correo predeterminado del 
+// usuario para enviar un correo electrónico a mi dirección de correo electrónico.
 const MainInfo = () => {
-    return (
-        <main className='flex justify-center bg-white flex-col lg:flex-row lg:mx-5 my-2 mx-2 rounded shadow-lg shadow-white/40'>
-            <section className='flex flex-col my-auto w-fit items-center p-2'>
-                <div className="text-4xl text-center">
-                    <p className="font-semibold ">I&apos;m Juan Fernando</p>
-                    <p className="font-bold text-slate-700">Backend</p>
-                    <p className="font-semibold ">Developer</p>
-                </div>
-                <p className=" text-justify w-fit my-5 ">
-                    Young innovator, with a high level of commitment and interpersonal skills to collaborate effectively in team environments, possessing expertise in programming languages and a strong passion for web development.
-                </p>
-                <Button text='CONTACT ME ➤' size='w-36' classes='hover:transition-colors hover:duration-500 hover:bg-slate-700' onClick={contactMeOnClick} />
-
-            </section>
-            <section className='flex justify-center w-fit items-end'>
-                <Image src='/img-rounded.png' alt='Juan Fernando Lopera Muñoz' classes='hidden lg:block' />
-            </section>
-        </main>
-    )
+  return (
+    <main className="mx-2 my-2 flex flex-col justify-center rounded bg-white shadow-lg shadow-white/40 lg:mx-5 lg:flex-row">
+      <section className="my-auto flex w-fit flex-col items-center p-2">
+        <div className="text-center text-4xl">
+          <p className="font-semibold ">I&apos;m Juan Fernando</p>
+          <p className="font-bold text-slate-700">Backend</p>
+          <p className="font-semibold ">Developer</p>
+        </div>
+        <p className=" my-5 w-fit text-justify ">
+          Young innovator, with a high level of commitment and interpersonal
+          skills to collaborate effectively in team environments, possessing
+          expertise in programming languages and a strong passion for web
+          development.
+        </p>
+        <Button
+          text="CONTACT ME ➤"
+          size="w-36"
+          classes="hover:transition-colors hover:duration-500 hover:bg-slate-700"
+          onClick={contactMeOnClick}
+        />
+      </section>
+      <section className="flex w-fit items-end justify-center">
+        <Image
+          src="/img-rounded.png"
+          alt="Juan Fernando Lopera Muñoz"
+          classes="hidden lg:block"
+        />
+      </section>
+    </main>
+  )
 }
-
-
 
 export default MainInfo

@@ -2,16 +2,30 @@ import React from 'react'
 import { Title } from '../../atoms'
 import { PortfolioCard } from '../../molecules'
 
+// Este organismo se creó con la finalidad de ser usado en la sección de portafolio.
+// Se hace uso del componente "PortfolioCard" y del átomo "Title".
+// Se muestra un título y dos tarjetas de portafolio.
+
 const PortfolioInfo = () => {
-    return (
-        <div className='w-full'>
-            <Title title='Portfolio' size='text-3xl' classes='text-white' />
-            <div className="w-full grid lg:grid-cols-2 grid-cols-1 p-5 gap-5">
-                <PortfolioCard icon='icon-[line-md--chat-twotone]' title='VetApp Backend' text='An application designed to facilitate communication and coordination between farmers and veterinarians in the Antioquia region.' url='https://github.com/JL005/vetapp-backend' />
-                <PortfolioCard icon='icon-[line-md--person-twotone]' title='User management' text='User management for the SSMU application ' url='https://github.com/xGoku07x/gestion-back' />
-            </div>
-        </div>
-    )
+  return (
+    <div className="w-full">
+      <Title title="Portfolio" size="text-3xl" classes="text-white" />
+      <div className="grid w-full grid-cols-1 gap-5 p-5 lg:grid-cols-2">
+        <PortfolioCard
+          icon="icon-[line-md--chat-twotone]"
+          title="VetApp Backend"
+          text="An application designed to facilitate communication and coordination between farmers and veterinarians in the Antioquia region."
+          url="https://github.com/JL005/vetapp-backend"
+        />
+        <PortfolioCard
+          icon="icon-[line-md--person-twotone]"
+          title="User management"
+          text="User management for the SSMU application "
+          url="https://github.com/xGoku07x/gestion-back"
+        />
+      </div>
+    </div>
+  )
 }
 
 export default PortfolioInfo
