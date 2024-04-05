@@ -1,0 +1,19 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*/.html
+
+node_modules/
+dist/
+build/
+coverage/
+
+# Files to ignore
+*.log
+*.json
+*.lock
+*.tgz
+.config.
+.md

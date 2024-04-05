@@ -8,16 +8,15 @@ type LanguageInfoProps = {
 }
 
 const LanguageInfo = (props: LanguageInfoProps) => {
-
   return (
     <>
-      <AlignedText leftText={props.language} rightText={`${props.percentage}%`} />
+      <AlignedText
+        leftText={props.language}
+        rightText={`${props.percentage}%`}
+      />
       <PercentageBar percentage={props.percentage} />
     </>
   )
 }
 
 export default LanguageInfo
-
-
-

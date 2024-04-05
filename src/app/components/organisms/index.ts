@@ -8,4 +8,3 @@ export { default as KnowledgeInfo } from './CentralSide/KnowledgeInfo'
 export { default as EducationInfo } from './CentralSide/EducationInfo'
 export { default as PortfolioInfo } from './CentralSide/PortfolioInfo'
 export { default as SocialMedia } from './RightSide/SocialMedia'
-
