@@ -17,7 +17,7 @@ type PortfolioCardProps = {
 // Cuenta con animaciones de hover las cuales cambian el color del fondo, el color del texto y la escala del componente.
 const PortfolioCard = (props: PortfolioCardProps) => {
   return (
-    <div className="flex h-full flex-col items-center rounded border-solid bg-white p-5 text-justify text-slate-900 shadow-md shadow-white/40 transition-all duration-1000 hover:scale-95 hover:bg-slate-700 hover:text-white hover:decoration-white ">
+    <div className="flex h-full flex-col items-center rounded border-solid bg-white p-5 text-justify text-slate-900 shadow-md shadow-white/40 transition-all duration-1000 cursor-pointer hover:scale-95 hover:bg-slate-700 hover:text-white hover:decoration-white ">
       <Icon icon={props.icon} classes="text-6xl" />
       <Title title={props.title} classes="my-3" />
       <Text>{props.text}</Text>

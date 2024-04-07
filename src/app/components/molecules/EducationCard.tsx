@@ -23,7 +23,7 @@ const EducationCard = (props: EducationCardProps) => {
   return (
     <div className="flex w-full flex-col gap-4 bg-white py-5 shadow-md shadow-white/40 lg:flex-row">
       <div className=" flex flex-col items-center px-6">
-        <Title title={props.title} />
+        <Title title={props.title} classes='whitespace-nowrap' />
         <div className="my-4 flex items-center lg:justify-between">
           <Text classes="whitespace-nowrap"> {props.text} </Text>
           <DurationText initial={props.initial} final={props.final} />

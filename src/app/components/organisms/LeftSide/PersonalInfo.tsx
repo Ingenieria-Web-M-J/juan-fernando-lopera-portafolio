@@ -34,7 +34,7 @@ const PersonalInfo = () => {
         rightText="No available"
         rightTextClasses="font-semibold text-red-500"
       />
-      <AlignedText leftText="Address:" rightText="Medellín, Colombia" />
+      <AlignedText leftText="Address:" rightText="Medellín, Colombia" rightTextClasses='whitespace-nowrap'/>
       <HorizontalLine />
     </>
   )
