@@ -40,10 +40,11 @@ const MainInfo = () => {
             setOpen(o => !o);
           }}
         />
-        <PopUp open={open} closeModal={closeModal} text="My passion lies in backend development and cloud technologies. I thrive on creating efficient, 
-          scalable systems and enjoy staying updated with the latest trends. Alongside my technical skills, 
-          I bring strong soft skills like teamwork, resilience, and self-driven learning, which contribute to 
-          my success in collaborative environments." >
+        <PopUp open={open} closeModal={closeModal} text="I love backend development and cloud technologies. 
+        I enjoy creating efficient and scalable systems, and keeping up to date with the latest technological 
+        developments is very important in my daily life. I like teamwork since listening to the 
+        ideas of others enriches me in both technical and social knowledge. 
+        Likewise, autonomous learning is a skill that I possess in my daily academic life." >
           <div className="flex justify-center py-4">
             <Button
               text="CONTACT ME ➤"
